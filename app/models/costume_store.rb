@@ -8,5 +8,6 @@ class CostumeStore < ActiveRecord::Base
       t.string :costume_inventort
       t.integer :employee_count
       t.timestamps
+    end
   end
 end
