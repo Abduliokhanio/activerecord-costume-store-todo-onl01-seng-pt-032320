@@ -2,7 +2,7 @@
 
 class CostumeStore < ActiveRecord::Base
   def change
-    create_table :costumes do |t|
+    create_table :store do |t|
       t.string :name
       t.string :location
       t.string :costume_inventort
