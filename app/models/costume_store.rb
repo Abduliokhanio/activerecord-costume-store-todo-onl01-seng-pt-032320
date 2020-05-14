@@ -4,9 +4,9 @@ class CostumeStore < ActiveRecord::Base
   def change
     create_table :costumes do |t|
       t.string :name
-      t.integer :price
-      t.string :image_url
-      t.string :size
+      t.string :location
+      t.string :costume_inventort
+      t.integer :employee_count
       t.timestamps
   end
 end
